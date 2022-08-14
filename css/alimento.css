@@ -1,0 +1,47 @@
+html {
+    background-color: #c77dff;
+    min-height: 1000px;
+    font-family: "helvetica neue";
+    background: #c77dff;
+    background: 
+      -webkit-gradient(linear, right top, left top, from(#c77dff), to(#4361ee));
+  }
+
+header{
+    background-color: #613dc1;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 25%;
+}
+
+nav{
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #832161;
+    text-decoration: underline;
+}

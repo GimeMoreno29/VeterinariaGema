@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">  
+</head>
+<body>
+
+    <header>
+        <div class="caja">
+            <h1><img src="/css/img2/logo.png" alt="logoN" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main2">
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+
+                <label for="correo">Correo Electronico</label>
+                <input type="email" id="correo" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(xxx) xxxx xxxx">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" cols="70" rows="10" placeholder="Escriba aqui alguna duda"></textarea>
+
+                <fieldset>
+                    <legend>¿Como le gustaria que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+
+                    <label for="radio-ws"><input type="radio" name="contacto" value="whatsapp" id="radio-ws" checked>WhatsApp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿En que horario prefiere ser atendido?</legend>
+                    <select name="" id="">
+                        <option value="">Mañana</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noche</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de Veterinaria Gema?</label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</tth>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>09hs~21hs</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>09hs~21hs</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>09hs~21hs</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>09hs~21hs</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>09hs~21hs</td>
+                    </tr>
+                    <tr>
+                        <td>Sabado</td>
+                        <td>09hs~15hs</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <img src="/css/img2/logo2.png" alt="logoB" class="logo2">
+        <p class="copy">&copy Copyright Veterinaria Gema - 2022</p>
+    </footer>
+</body>
+</html>
